@@ -1,0 +1,84 @@
+html{
+    background-color: darkslategray;
+    font-family: Lato;
+    font-size: 13px;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+
+p{
+    text-indent: 15px;
+    
+}
+.block{
+    display: inline-block;
+    height: auto;
+    text-align: center;
+    width: 150px;
+    background-color: darkgoldenrod;
+    color: wheat;
+    transition-duration: 0.2s;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 14px;
+}
+.block:hover{
+    background-color: orange;
+    color: aliceblue;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+.block_green{
+    display: block;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 1px;
+    padding: 1px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    background-color: greenyellow;
+    color: darkgreen;
+    text-overflow: clip;
+}
+.block_red{
+    display: block;
+    width: 200px;
+    height: 30px;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 5px;
+    color: indianred;
+    background-color: darkred;
+}
+
+.block_red:hover{
+    background-color: red;
+    color: yellow;
+    transform: scale(1.2,1.2);
+    transition-duration: 0.3s;
+    box-shadow: 0px 0px 15px orange;
+}
+.block_green:hover{
+    background-color: darkgreen;
+    color: greenyellow;
+    transform: translate(20px,0px);
+    transition-duration: 0.3s;
+}
+.bar{
+    width: 100%;
+    float: left;
+}
+.column{
+    width: 30%;
+    height: 400px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    float: left;
+    background: rgba(200,200,200,0.3);
+    border-radius: 5px;
+}
